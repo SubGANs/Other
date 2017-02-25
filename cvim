@@ -1,0 +1,51 @@
+" https://github.com/SubGANs/Other/blob/master/cvimrc
+" Settings cVim
+let scrollstep = 70
+set defaultnewtabpage
+set autohidecursor
+" set smoothscroll 
+set nativelinkorder 
+let completionengines = ["google", "youtube"]
+let defaultengine = "google"
+let locale = "ru"
+" Alias
+command gt tabnew https://translate.google.ru/
+command g tabnew google
+let searchalias g = "google"
+let searchalias y = "youtube"
+" Blacklist
+" Mapping Eng Keys
+" Mapping Rus Keys
+map о scrollDown
+map л scrollUp
+map р scrollLeft
+map д scrollRight
+map в scrollPageDown
+map г scrollPageUp
+map пп scrollToTop
+map П scrollToBottom
+map а createHint
+map А createTabbedHint
+map Ц createHintWindow
+map пш goToInput
+map пШ goToLastInput
+map Ж openCommandBar
+map . openSearchBar
+map , openSearchBarReverse
+map ш insertMode
+map к reloadTab
+map сь muteTab
+map яш zoomPageIn
+map ящ zoomPageOut
+map нн yankDocumentUrl
+map Л nextTab
+map О previousTab
+map ч closeTab
+map е :tabnew
+map Р goBack
+map Д goForward
+map Б moveTabLeft
+map Ю moveTabRight
+map т nextSearchResult
+map Т previousSearchResult
+map пн yankUrl
