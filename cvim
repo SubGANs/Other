@@ -1,6 +1,6 @@
-" https://github.com/SubGANs/Other/blob/master/cvimrc
+" https://github.com/SubGANs/Other/blob/master/cvim
 " Settings cVim
-let scrollstep = 70
+let scrollstep = 60
 set defaultnewtabpage
 set autohidecursor
 " set smoothscroll 
